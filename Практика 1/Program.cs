@@ -10,6 +10,13 @@ namespace Практика_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Программа, которая складывает два числа");
+            Console.Write("Введите первое число = ");
+            int A = int.Parse(Console.ReadLine());
+            Console.Write("Введите второе число = ");
+            int B = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Сумма чисел равна = {A + B}");
+            Console.Read();
         }
     }
 }
